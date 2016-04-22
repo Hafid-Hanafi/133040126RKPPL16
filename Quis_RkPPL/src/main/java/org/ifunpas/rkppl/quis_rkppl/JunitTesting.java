@@ -7,10 +7,7 @@ import org.junit.Test;
 public class JunitTesting {
 	@Before
 		public void test1(){
-			int a, b, c;
-			a=12;
-			b=2;
-			c=a+b;
+			
 		}
 	@Test
 		public void test2(){
@@ -31,6 +28,6 @@ public class JunitTesting {
 			int a, b, c;
 			a=12;
 			b=2;
-			c=a/b;
+			c=a*b;
 		}
 }
